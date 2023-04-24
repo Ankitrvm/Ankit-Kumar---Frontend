@@ -1,0 +1,32 @@
+.root {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  row-gap: 10px;
+}
+
+.grid {
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.578);
+  border-radius: 5px;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.578);
+  border-radius: 5px;
+  height: 100%;
+}
+
+.error {
+  color: red;
+}

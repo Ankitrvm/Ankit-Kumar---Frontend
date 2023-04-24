@@ -1,0 +1,39 @@
+.advertisement {
+  width: 100%;
+  border: 1px solid rgba(129, 9, 9, 0.578);
+  border-radius: 5px;
+  padding: 10px;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.companyName {
+  justify-items: center;
+}
+.headlines {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.primaryText {
+  color: blue;
+}
+.description {
+  color: rgb(105, 105, 105);
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 8px;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+.btn {
+  font-size: 0.75rem;
+}
